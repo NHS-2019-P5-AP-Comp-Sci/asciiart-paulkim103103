@@ -18,10 +18,36 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		giraffehead();
+		neck();
+		body();
+		legs();
+		legs();
+		System.out.println("");
+		System.out.println("I made an ASCIIart Giraffe");
+	}
+	public static void giraffehead() {
+		System.out.println(" /)ii/)");
+		System.out.println("(o \" )");
+	}
+	public static void neck() {
+		neckbase();
+		neckbase();
+		neckbase();
+		neckbase();
+		System.out.println("  |o|       ||");
+	}
+	public static void neckbase() {
+		System.out.println("  | |");
+	}
+	public static void body() {
+		System.out.println("  | |_______||");
+		System.out.println("  |     o    |");
+		System.out.println("  |       o  |");
+		System.out.println("  | o__o_____|");
+	}
+	public static void legs() {
+		System.out.println("  ||       ||");
+		
 	}
 }
